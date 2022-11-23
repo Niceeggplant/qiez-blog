@@ -9,7 +9,7 @@ const config = {
   title: '茄子Blog',
   tagline: '想学好前端的拷贝忍者',
   url: 'https://messiahhh.github.io/',
-  baseUrl: '/blog/', 
+  baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/avatar.webp',

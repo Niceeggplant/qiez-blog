@@ -74,6 +74,7 @@ const config = {
             label: '正文',
           },
           {to: 'blog/面经', label: '面经', position: 'right'},
+          {to: 'docs/conclusion/', label: '总结', position: 'right'},
           {
             href: 'https://github.com/Niceeggplant',
             label: 'GitHub',

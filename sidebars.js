@@ -13,9 +13,11 @@
 
 /** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
+ 
+
   // By default, Docusaurus generates a sidebar from the docs folder structure
-  tutorialSidebar: [
-    
+  mySidebar: [
+
     // "browser",
     "HTML",
     "css",
@@ -51,21 +53,7 @@ const sidebars = {
         'javascript/事件',
       ],
     },
-    {
-      type: 'category',
-      label: '学习总结',
-      link: {
-        type: 'doc',
-        id: 'conclusion/20220910总结',
-      },
-      items: [
-        {
-          type: 'doc',
-          id:  'conclusion/20220910总结',
-          label: '2022 09-10 总结'
-        },
-      ]
-    },
+   
     // "javascript",
     {
       type: 'category',
@@ -220,18 +208,22 @@ const sidebars = {
     "webgl",
     "php",
     // "代码段记录",
-  ],
 
-  // But you can create a sidebar manually
-  /*
-  tutorialSidebar: [
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['hello'],
-    },
+   
   ],
-   */
+  
+  conclusion:{
+  
+     总结:['conclusion/conclusion'],
+     2022:[
+      "conclusion/9-10月学习收获和感悟",
+      "conclusion/10-11月学习总结"
+    ],
+     
+    
+  },
+  
+  
 };
 
 module.exports = sidebars;

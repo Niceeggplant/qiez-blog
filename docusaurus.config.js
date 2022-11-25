@@ -91,12 +91,12 @@ const config = {
       },
       algolia: {
         // The application ID provided by Algolia
-        appId: '4UQ7YJWMAW',
+        appId: 'GSEAZ0KK0M',
     
         // Public API key: it is safe to commit it
-        apiKey: 'b89095b2d5ba269ddb7caf71abd25dab',
+        apiKey: '7e9334eaef87c64b8eeb01946a84f5bb',
     
-        indexName: 'qiez',
+        indexName: 'qiez-blog',
       }
     }),
 };

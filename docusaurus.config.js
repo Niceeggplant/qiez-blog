@@ -45,9 +45,7 @@ const config = {
   ],
 
   themeConfig:
-    /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      hideableSidebar: true, 
       announcementBar: {
         id: 'support_us',
         content: '⭐️ 博客源码地址  <a target="_blank" rel="noopener noreferrer" href="https://github.com/Niceeggplant/niceq-blog">GitHub</a>',
@@ -74,7 +72,7 @@ const config = {
             label: '正文',
           },
           {to: 'blog/面经', label: '面经', position: 'right'},
-          {to: 'docs/conclusion/', label: '总结', position: 'right'},
+          {to: 'docs/conclusion', label: '总结', position: 'right'},
           {
             href: 'https://github.com/Niceeggplant',
             label: 'GitHub',

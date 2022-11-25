@@ -11,10 +11,8 @@
 
 // @ts-check
 
-/** @type {import('@docusaurus/plugin-content-docs').SidebarsConfig} */
 const sidebars = {
  
-
   // By default, Docusaurus generates a sidebar from the docs folder structure
   mySidebar: [
 
@@ -213,17 +211,12 @@ const sidebars = {
   ],
   
   conclusion:{
-  
      总结:['conclusion/conclusion'],
      2022:[
       "conclusion/9-10月学习收获和感悟",
       "conclusion/10-11月学习总结"
     ],
-     
-    
   },
-  
-  
 };
 
 module.exports = sidebars;

@@ -89,14 +89,15 @@ const config = {
       colorMode: {
         respectPrefersColorScheme: true
       },
-      algolia: {
+      algolia:  {
         // The application ID provided by Algolia
-        appId: 'QJN1PE70OE',
+        appId: '1ET2J46CK6',
     
         // Public API key: it is safe to commit it
-        apiKey: '952506cfbbec0d6a332fc9ccb88ec0b6',
-    
-        indexName: 'qiez',
+        apiKey: '838ec43abda0056c2a0886f8351e278c',
+
+        //add
+        indexName: 'qiez-top',
       }
     }),
 };
